@@ -1,0 +1,7 @@
+torch==1.10.0
+gym==0.15.7
+matplotlib==3.5.3
+numpy==1.21.6
+scipy==1.6.3
+tensorboardX
+
