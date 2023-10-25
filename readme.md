@@ -25,12 +25,12 @@ The robustness of the policy can be adjusted by tuning the hyperparameter **alph
 bash scripts train_disc.sh 5 1.0
 ```
 
-**Environment: discrete, NNB=10, alpha=1.0**
+**Environment: discrete, NNB=10, alpha=1.2**
 ```
 bash scripts train_disc.sh 10 1.2
 ```
 
-**Environment: discrete, NNB=15, alpha=1.0**
+**Environment: discrete, NNB=15, alpha=1.3**
 ```
 bash scripts train_disc.sh 15 1.3
 ```
