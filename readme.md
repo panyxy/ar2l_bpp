@@ -104,11 +104,13 @@ and the authors of the [PPO PyTorch Implementation](https://github.com/ikostriko
 ## Citation
 
 ```
-@article{pan2023adjustable,
-  title={Adjustable Robust Reinforcement Learning for Online 3D Bin Packing},
-  author={Pan, Yuxin and Chen, Yize and Lin, Fangzhen},
-  journal={arXiv preprint arXiv:2310.04323},
-  year={2023}
+@inproceedings{
+pan2023adjustable,
+title={Adjustable Robust Reinforcement Learning for Online 3D Bin Packing},
+author={Yuxin Pan and Yize Chen and Fangzhen Lin},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=1mdTYi1jAW}
 }
 ```
 
