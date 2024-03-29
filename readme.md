@@ -45,9 +45,9 @@ bash scripts train_disc.sh 20 1.0
 bash scripts train_cont.sh 5 1.0
 ```
 
-**Environment: continuous, NNB=10, alpha=1.0**
+**Environment: continuous, NNB=10, alpha=1.2**
 ```
-bash scripts train_cont.sh 10 1.0
+bash scripts train_cont.sh 10 1.2
 ```
 
 **Environment: continuous, NNB=15, alpha=1.0**
@@ -55,9 +55,9 @@ bash scripts train_cont.sh 10 1.0
 bash scripts train_cont.sh 15 1.0
 ```
 
-**Environment: continuous, NNB=20, alpha=1.0**
+**Environment: continuous, NNB=20, alpha=1.1**
 ```
-bash scripts train_cont.sh 20 1.0
+bash scripts train_cont.sh 20 1.1
 ```
 
 
@@ -104,13 +104,16 @@ and the authors of the [PPO PyTorch Implementation](https://github.com/ikostriko
 ## Citation
 
 ```
-@inproceedings{
-pan2023adjustable,
-title={Adjustable Robust Reinforcement Learning for Online 3D Bin Packing},
-author={Yuxin Pan and Yize Chen and Fangzhen Lin},
-booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-year={2023},
-url={https://openreview.net/forum?id=1mdTYi1jAW}
+@inproceedings{pan2023ar2l,
+ author = {Pan, Yuxin and Chen, Yize and Lin, Fangzhen},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {51926--51954},
+ publisher = {Curran Associates, Inc.},
+ title = {Adjustable Robust Reinforcement Learning for Online 3D Bin Packing},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/a345ed605675c7c484e740a8ceaa6b45-Paper-Conference.pdf},
+ volume = {36},
+ year = {2023}
 }
 ```
 
