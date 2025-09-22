@@ -23,9 +23,9 @@ python evaluation.py \
 --load-dataset \
 --dataset-path ./dataset/eval_continuous_dataset.pt \
 --load-bpp-model \
---bpp-model-path ./pretrained_model/pretrained_${2}_model/nnb${1}/continuous/bpp.pt \
+--bpp-model-path ./pretrained_model/${2}/continuous/nnb${1}/bpp.pt \
 #--load-adv-model \
-#--adv-model-path ./pretrained_model/pretrained_${2}_model/nnb${1}/continuous/adv.pt \
+#--adv-model-path ./pretrained_model/${2}/continuous/nnb${1}/adv.pt \
 
 
 

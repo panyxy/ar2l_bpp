@@ -17,9 +17,9 @@ python evaluation.py \
 --load-dataset \
 --dataset-path ./dataset/eval_discrete_dataset.pt \
 --load-bpp-model \
---bpp-model-path ./pretrained_model/pretrained_${2}_model/nnb${1}/discrete/bpp.pt \
+--bpp-model-path ./pretrained_model/${2}/discrete/nnb${1}/bpp.pt \
 #--load-adv-model \
-#--adv-model-path ./pretrained_model/pretrained_${2}_model/nnb${1}/discrete/adv.pt \
+#--adv-model-path ./pretrained_model/${2}/discrete/nnb${1}/adv.pt \
 
 
 
